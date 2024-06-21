@@ -132,9 +132,9 @@ with open('style.css') as f:
     css = f.read()
 st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
 if  ticker == "ABL":
-   st.sidebar.image("Images\ABL.png")
+   st.sidebar.image("Images/ABL.png")
 if  ticker == "ABOT":
-   st.sidebar.image("Images\ABOT.png")
+   st.sidebar.image("Images/ABOT.png")
 if  ticker == "AGP":
    st.sidebar.image('Images/AGP.png')
 if  ticker == "AICL":
