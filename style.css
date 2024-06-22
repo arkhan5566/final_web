@@ -105,3 +105,6 @@ p{
     background-color: #C9C8C8;
     height: 300;
 }
+svg{
+    visibility:hidden;
+}
