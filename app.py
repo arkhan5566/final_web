@@ -64,6 +64,14 @@ st.markdown(
     """, unsafe_allow_html=True
 )
 st.markdown(sidebar_background, unsafe_allow_html=True)
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
 com.html("""
 <H1> Namal Stock Prediction Online Tool</H1>
          <div class="khansb">
