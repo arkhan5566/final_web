@@ -95,6 +95,7 @@ h2{
     text-align: center;
     color: black;
 height: fit-content; 
+    animation: animation 3s 1; 
 }
 p{
     color: #000000;
@@ -119,4 +120,9 @@ p{
 }
 .st-emotion-cache-1mi2ry5 {
     display:none;
+}
+@keyframes animation {
+    0%{transform: translate(-200%)}
+  100%{transform:translate( 0%)}
+    
 }
